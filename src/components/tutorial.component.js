@@ -160,7 +160,7 @@ export default class Tutorial extends Component {
             <button
               type="submit"
               className="badge badge-success"
-              onClick={this.deleteTutorial}
+              onClick={this.updateTutorial}
             >
               Update
             </button>
